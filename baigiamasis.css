@@ -1,0 +1,217 @@
+
+body{ 
+    margin: 0;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 200px 1fr;
+grid-template-rows: 1fr;
+align-items: center;
+}
+.image {
+    padding:4px;
+}
+.navigacija_pradzia{
+display: flex;
+list-style: none;
+gap: 20px;
+margin: 0;
+padding: 20px;
+justify-content: end;
+
+
+}
+
+.antraste {
+display: flex;
+justify-content: center;
+
+}
+.elementas  link :hover {
+color: orange;
+}
+
+.pirma-dalis {
+    height: 500px;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url("https://t4.ftcdn.net/jpg/02/48/32/01/360_F_248320146_kjHw2FcOr8cugPxAXnZ2OapCOTiOVms5.webp");
+    background-size: cover;
+    background-position: center; 
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(125, 129, 157);
+    font-size: 40px;
+    @media (max-width: 1200px){
+        font-size: 26px; 
+    }
+
+}
+.izanga {
+height: auto;
+background-color: rgb(99, 99, 109);
+color:aliceblue;
+font-size: 16px;
+box-sizing: border-box;
+padding: 10px;
+
+
+
+}
+.pirma {
+    width: 400px;
+
+    
+   }
+
+   .tevinis {
+    height: auto;
+    width: auto;
+    background-color: #dcd7d7;
+    padding: 20px;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+justify-items: center;
+
+  }
+
+.vaikas {
+    background-color: rgb(234, 230, 231);
+    width: auto;
+    height: auto;
+    display:grid;
+    padding: 10px;
+    color: rgb(84, 86, 86);
+    margin: 10px;
+align-content: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+   
+}
+.vaikas :hover {
+    background-color:white;
+
+}
+/*background-color: rgb(238, 238, 243);
+padding: 10px;
+margin: 10px;
+    color: rgb(84, 86, 86);*/ 
+}
+   .apibudinimas {
+    height: 200px;
+    width: auto;
+
+;
+   
+   }
+
+  
+
+
+.pabaiga {
+    background-color: rgb(99, 99, 109); 
+    height: 100px; 
+    justify-content: center;
+    color:aliceblue;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+
+}
+.namu-projektai {
+   
+    height: auto;
+    width: auto;
+    background-color: #dcd7d7;
+    padding: 20px;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+align-items: center;
+align-content: space-between;
+justify-content: space-around;
+
+  @media (max-width: 1230px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    height: auto;
+   
+  }
+  
+    
+}
+.namas-agile {
+    width: 300px;
+    height: 280px;
+background-color: rgb(238, 238, 243);
+padding: 10px;
+margin: 10px;
+
+}
+
+.agile-dezute {
+    width: 300px;
+    height:250px
+    display: flex;
+    backgroun-color: red;
+
+}
+.namas-lukne {
+    width: 300px;
+    height: 280px;
+background-color: rgb(238, 238, 243);
+padding: 10px;
+margin: 10px;
+}
+
+.lukne-dezute {
+    width: 300px;
+    height:250px
+    display: flex;
+    backgroun-color: red;}
+.namas-dija {
+    width: 300px;
+    height: 280px;
+background-color: rgb(238, 238, 243);
+padding: 10px;
+margin: 10px;}
+    
+.dija-dezute {
+    width: 300px;
+    height:250px
+    display: flex;
+    backgroun-color: red;}
+
+    .mygtukiukas {
+        background-color: rgb(99, 99, 109);
+        padding: 10px;
+
+    }
+    .forma {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        
+
+    }
+.galas {
+text-align: center;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+   
+  }
